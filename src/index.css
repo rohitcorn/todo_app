@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.todolist{
+  li{
+    &.strike-through{
+      @apply line-through;
+    }
+    }
+}
